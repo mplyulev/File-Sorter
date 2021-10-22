@@ -7,8 +7,8 @@ fileTypes = {
     'pics': ['jpg', 'jpeg', 'png', 'tiff', 'psd', 'raw', 'gif'],
     'audio': ['wav', 'flac', 'aiff', 'aif', 'mp3'],
     'video': ['mp4', 'mov', 'flv', 'mpeg-2', 'wmv', 'avi'],
-    'docs': ['txt', 'pdf', 'docx', 'doc'],
-    'archives': ['zip', 'rar']
+    'docs': ['txt', 'pdf', 'docx', 'doc', 'xlsx', 'xml', 'xls', 'xltx', 'xls', 'csv'],
+    'archives': ['zip', 'rar'],
 }
 
 sourceDirs = ['archives', 'video', 'audio', 'docs', 'pics', 'others']
