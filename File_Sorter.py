@@ -11,9 +11,6 @@ fileTypes = {
     'archives': ['zip', 'rar'],
 }
 
-sourceDirs = ['archives', 'video', 'audio', 'docs', 'pics', 'others']
-
-
 def browse_button():
     path = filedialog.askdirectory()
     list_ = os.listdir(path)
